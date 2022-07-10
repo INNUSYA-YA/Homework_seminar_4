@@ -4,7 +4,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 int a=0;
 int count = 0;
 int sum = 0;
-while (count<=n)
+while (n>0)
 {
     a=n%10;
     sum = sum + a;
